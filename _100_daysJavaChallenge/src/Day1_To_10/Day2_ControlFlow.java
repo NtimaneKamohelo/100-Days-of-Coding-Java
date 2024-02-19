@@ -1,5 +1,10 @@
 package Day1_To_10;
 
+/**
+ * Boolean data type
+ * The boolean data type declares a variable with the value either true or false
+ */
+
 import java.util.Scanner;
 
 public class Day2_ControlFlow {
