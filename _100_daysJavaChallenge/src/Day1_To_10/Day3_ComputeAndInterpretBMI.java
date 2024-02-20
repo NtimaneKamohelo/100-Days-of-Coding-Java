@@ -18,9 +18,9 @@ public class Day3_ComputeAndInterpretBMI {
         System.out.print("Enter the height in inches: ");
         double height = input.nextDouble();
 
-        double weihgtInKilograms = weight * KILOGRAMS_PER_POUND;
+        double weightInKilograms = weight * KILOGRAMS_PER_POUND;
         double heightInMeters = height * METERS_PER_INCH;
-        double bmi = weihgtInKilograms / (heightInMeters * heightInMeters);
+        double bmi = weightInKilograms / (heightInMeters * heightInMeters);
 
         //Display results
         System.out.println("BMI is: " + bmi);
